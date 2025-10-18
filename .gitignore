@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Resume Matcher Specific
+# Data files with PII
+data/private/
+data/real_resumes/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Model Cache
+models/
+*.pkl
+*.joblib
+
+# Logs
+logs/
+*.log.*

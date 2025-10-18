@@ -1,0 +1,72 @@
+[project]
+name = "resume-matcher"
+version = "1.0.0"
+description = "AI-Powered Resume Screening Solution"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Ankit AI Solutions"}
+]
+
+dependencies = [
+    # Core Dependencies
+    "streamlit>=1.30.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.5.0",
+    "pydantic-settings>=2.1.0",
+    
+    # LLM Providers
+    "openai>=1.12.0",
+    "google-generativeai>=0.4.0",  # Legacy SDK for fallback
+    "google-genai>=1.45.0",  # New SDK for structured outputs
+    "anthropic>=0.18.0",
+    
+    # NLP & ML
+    "sentence-transformers>=2.3.0",
+    "scikit-learn>=1.4.0",
+    
+    # Data Processing & Visualization
+    "pandas>=2.1.0",
+    "numpy>=1.26.0",
+    "plotly>=5.18.0",
+    
+    # Utilities
+    "tenacity>=8.2.0",
+    "tiktoken>=0.5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+    "mypy>=1.7.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src", "config", "pages"]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+]
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true

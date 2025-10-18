@@ -1,0 +1,99 @@
+# Non-sensitive configuration
+# For sensitive data (API keys), use .env file
+
+application:
+  name: "Resume Matcher Pro"
+  version: "1.0.0"
+  description: "AI-Powered Resume Screening Solution by Ankit"
+
+ui:
+  theme: "light"
+  page_title: "Resume Matcher Pro | Ankit"
+  page_icon: "🎯"
+  sidebar_state: "expanded"
+  
+matching:
+  # Recommendation thresholds
+  strong_match_threshold: 80
+  maybe_match_threshold: 60
+  weak_match_threshold: 40
+  
+  # Processing limits
+  max_resume_size_mb: 10
+  max_batch_size: 100
+  
+  # Skills extraction
+  extract_soft_skills: true
+  extract_technical_skills: true
+  extract_certifications: true
+
+bias_detection:
+  sensitivity: "medium"  # low, medium, high
+  
+  # Protected attributes to monitor (for fairness analysis only)
+  protected_attributes:
+    - age_indicators
+    - gender_indicators
+    - ethnicity_indicators
+    - nationality_indicators
+    - disability_indicators
+    - marital_status_indicators
+  
+  # Anonymization options
+  anonymize_names: false
+  anonymize_contact: false
+  anonymize_addresses: true
+  anonymize_photos: true
+
+analytics:
+  # Metrics to track
+  track_performance: true
+  track_costs: true
+  track_fairness: true
+  
+  # Retention
+  log_retention_days: 90
+  
+stakeholder_views:
+  chro:
+    - candidate_quality_score
+    - false_rejection_rate
+    - time_to_shortlist
+    - diversity_metrics
+    
+  cfo:
+    - cost_per_hire
+    - roi_vs_baseline
+    - total_cost_savings
+    - efficiency_gains
+    
+  cdo:
+    - demographic_parity
+    - equal_opportunity_rate
+    - bias_detection_alerts
+    - compliance_score
+    
+  head_of_ta:
+    - candidates_processed
+    - shortlist_conversion_rate
+    - avg_match_score
+    - pipeline_velocity
+    
+  cto:
+    - system_uptime
+    - avg_response_time
+    - api_success_rate
+    - scalability_metrics
+
+demo_scenarios:
+  - name: "Perfect Match"
+    description: "Senior ML Engineer with exact skills match"
+    
+  - name: "Skills Gap"
+    description: "Good candidate but missing 2 key requirements"
+    
+  - name: "Career Changer"
+    description: "Non-traditional background, bootcamp grad"
+    
+  - name: "Overqualified"
+    description: "PhD applying for mid-level role"

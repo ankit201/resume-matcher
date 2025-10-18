@@ -1,0 +1,122 @@
+Senior AI/ML Engineer - GenAI & LLM Specialist
+
+TechCorp Global - San Francisco, CA (Hybrid)
+Full-Time | $180,000 - $250,000 + Equity
+
+ABOUT THE ROLE
+
+TechCorp Global is seeking an exceptional Senior AI/ML Engineer to join our cutting-edge GenAI team. You'll be at the forefront of building production-grade AI applications powered by large language models (LLMs), working on projects that impact millions of users worldwide.
+
+This role offers the unique opportunity to work with state-of-the-art AI technologies including GPT-4, Claude, Gemini, and open-source LLMs. You'll design scalable ML systems, implement prompt engineering strategies, and build robust AI pipelines that deliver real business value.
+
+KEY RESPONSIBILITIES
+
+• Design and implement production-ready AI/ML systems using LLMs (OpenAI, Anthropic, Google AI)
+• Build end-to-end ML pipelines for data processing, model training, and deployment
+• Develop prompt engineering strategies and fine-tuning approaches for domain-specific tasks
+• Optimize model performance, latency, and cost at scale
+• Collaborate with product managers and engineers to translate business requirements into AI solutions
+• Implement monitoring, evaluation, and observability for AI systems
+• Stay current with latest research in NLP, GenAI, and LLMs
+• Mentor junior engineers and contribute to technical documentation
+
+REQUIRED QUALIFICATIONS
+
+• 5+ years of professional software engineering experience
+• 3+ years of hands-on experience with machine learning and NLP
+• Strong proficiency in Python and modern ML frameworks (PyTorch, TensorFlow, or JAX)
+• Experience with LLM APIs (OpenAI, Anthropic, Cohere, or similar)
+• Deep understanding of transformer architectures and attention mechanisms
+• Experience building production ML systems with proper monitoring and observability
+• Strong knowledge of ML ops practices (CI/CD for ML, model versioning, A/B testing)
+• Excellent problem-solving skills and ability to work in ambiguous environments
+• Bachelor's degree in Computer Science, Engineering, or related field
+
+PREFERRED QUALIFICATIONS
+
+• Master's or PhD in Computer Science, Machine Learning, or related field
+• Experience with LangChain, LlamaIndex, or similar LLM frameworks
+• Knowledge of vector databases (Pinecone, Weaviate, Milvus, ChromaDB)
+• Experience with prompt engineering, RAG (Retrieval-Augmented Generation), and fine-tuning
+• Contributions to open-source AI/ML projects
+• Publications in top-tier conferences (NeurIPS, ICML, ACL, EMNLP)
+• Experience with distributed training and model parallelism
+• Knowledge of AI safety, alignment, and responsible AI practices
+• Strong understanding of embeddings, semantic search, and information retrieval
+• Experience with cloud platforms (AWS, GCP, Azure) and containerization (Docker, Kubernetes)
+
+TECHNICAL SKILLS
+
+Must Have:
+- Python (advanced)
+- PyTorch or TensorFlow
+- LLM APIs (OpenAI, Anthropic, etc.)
+- NLP and text processing
+- RESTful API design
+- Git and version control
+- SQL and data processing
+- Unit testing and CI/CD
+
+Nice to Have:
+- LangChain or LlamaIndex
+- Vector databases
+- Streamlit or Gradio
+- FastAPI or Flask
+- Docker and Kubernetes
+- AWS/GCP/Azure
+- Monitoring tools (Prometheus, Grafana)
+- Experiment tracking (MLflow, Weights & Biases)
+
+SOFT SKILLS
+
+• Excellent written and verbal communication
+• Strong collaboration and teamwork
+• Ability to explain complex technical concepts to non-technical stakeholders
+• Self-motivated and able to work independently
+• Adaptability to rapidly changing technologies and requirements
+• Strong attention to detail and commitment to quality
+• Passion for AI and continuous learning
+
+WHAT WE OFFER
+
+• Competitive salary ($180K - $250K) based on experience
+• Generous equity package with 4-year vesting
+• Comprehensive health, dental, and vision insurance
+• 401(k) with company match
+• Unlimited PTO policy
+• Remote-friendly / Hybrid work environment
+• Professional development budget ($5,000/year)
+• Conference attendance and travel opportunities
+• State-of-the-art AI/ML infrastructure (latest GPUs, TPUs)
+• Collaborative and innovative team culture
+• Quarterly team offsites and hackathons
+
+ABOUT TECHCORP GLOBAL
+
+TechCorp Global is a leading technology company transforming industries through AI innovation. With over 10,000 employees worldwide and a valuation of $5B+, we're building the future of intelligent systems. Our products serve Fortune 500 companies and millions of end-users.
+
+We're committed to diversity, equity, and inclusion. We welcome candidates from all backgrounds and provide equal employment opportunities regardless of race, color, religion, gender, sexual orientation, age, national origin, disability, or veteran status.
+
+INTERVIEW PROCESS
+
+1. Initial Screen (30 min) - Recruiter call to discuss background and interest
+2. Technical Screen (60 min) - Coding and ML fundamentals with engineer
+3. System Design (90 min) - Design scalable AI/ML system architecture
+4. Technical Deep Dive (60 min) - In-depth discussion of past projects and experience
+5. Behavioral Interview (45 min) - Culture fit and leadership principles
+6. Final Round (30 min) - Meet with hiring manager and team lead
+
+Total process: 2-3 weeks
+
+TO APPLY
+
+Submit your resume, GitHub profile, and a brief cover letter explaining:
+1. Your most impressive AI/ML project
+2. Why you're excited about GenAI and LLMs
+3. What you hope to accomplish at TechCorp
+
+We look forward to hearing from you!
+
+---
+
+TechCorp Global is an Equal Opportunity Employer
